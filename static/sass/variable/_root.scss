@@ -1,0 +1,53 @@
+// Open Sans
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url('../fonts/Poppins/Poppins-ExtraBold.ttf');
+}
+
+
+:root {
+  // font-family Open Sans
+  --regular: 'Poppins-Regular';
+  --light: 'Poppins-Light';
+  --medium: 'Poppins-Medium';
+  --semibold: 'Poppins-SemiBold';
+  --bold: 'Poppins-Bold';
+  --extrabold: 'Poppins-ExtraBold';
+
+  // Color variable
+  --primary-color: #00eda4;
+  --secondary-color: #04afff;
+  --white-color: #fff;
+  --black-color: #000;
+  --dark-color: #222;
+  --purple-color: rgb(106,125,241);
+  --yellow-color: #fed339;
+  --orange-color: #f96740;
+}
+
+
+// background-image: -webkit-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: -moz-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: -o-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: -ms-linear-gradient(left, #00eda4, #6a7df1);
+// background-image: linear-gradient(to right, #00eda4, #6a7df1);

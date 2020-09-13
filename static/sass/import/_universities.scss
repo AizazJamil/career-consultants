@@ -1,0 +1,44 @@
+.univerties {
+  &-context-area-flexible {
+    padding: 80px 0;
+
+    .myaccordion {
+      box-shadow: 0 0 1px rgba(0,0,0,0.1);
+
+      .card-body {
+        padding: 0 40px;
+      }
+    }
+
+    .myaccordion .card,
+    .myaccordion .card:last-child .card-header {
+      border: none;
+    }
+
+    .myaccordion .card-header {
+      border-bottom-color: #EDEFF0;
+      background: transparent;
+    }
+
+    .myaccordion .fa-stack {
+      font-size: 18px;
+    }
+
+    .myaccordion .btn {
+      width: 100%;
+      font-weight: bold;
+      color: var(--purple-color);
+      padding: 0;
+    }
+
+    .myaccordion .btn-link:focus,
+    .myaccordion .btn-link:hover {
+      text-decoration: none;
+    }
+
+    .myaccordion  li {
+      margin-top: 10px;
+      list-style-type: decimal;
+    }
+  }
+}
