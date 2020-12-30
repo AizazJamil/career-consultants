@@ -7,6 +7,20 @@
 
       .card-body {
         padding: 0 40px;
+
+        .text {
+          margin-top: 20px;
+          p {
+            font-size: 14px;
+            font-family: var(--regular);
+            font-weight: 400;
+            line-height: 28px;
+            color: var(--dark-color);
+            position: relative;
+            text-align: left;
+            display: block;
+          }
+        }
       }
     }
 

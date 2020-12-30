@@ -122,192 +122,51 @@ $(function() {
   $(".collapse").collapse("hide");
   // check the url hash when we first load the page
   if (window.location.hash != "") {
-    if(window.location.hash==="#uniAustralia"){
-	  $("#collapseOne").collapse("show");
-	  $("#collapseTwo").collapse("hide");
+
+    if (window.location.hash === "#uniUK") {
+      $("#collapseTwo").collapse("hide");
       $("#collapseThree").collapse("hide");
       $("#collapseFour").collapse("hide");
       $("#collapseFive").collapse("hide");
-      $("#collapseSix").collapse("hide");	  
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide");     
-}else if (window.location.hash==="#uniAustria"){	  
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("show");
-      $("#collapseThree").collapse("hide");
-      $("#collapseFour").collapse("hide");
-      $("#collapseFive").collapse("hide");
-      $("#collapseSix").collapse("hide");	  
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}
-else if (window.location.hash==="#uniCanada"){	
-	  $("#collapseOne").collapse("hide"); 
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("show");	  
-      $("#collapseFour").collapse("hide");
-      $("#collapseFive").collapse("hide");
-      $("#collapseSix").collapse("hide");	  
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniChina"){	 
-	  $("#collapseOne").collapse("hide"); 
-	  $("#collapseTwo").collapse("hide");	  
-      $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("show");	  
-      $("#collapseFive").collapse("hide");
-      $("#collapseSix").collapse("hide");	  
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniFrance"){	     
+      $("#collapseSix").collapse("hide");
+      $("#collapseOne").collapse("show");
+    } else if (window.location.hash === "#uniUSA") {
       $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("show");
-      $("#collapseSix").collapse("hide");	  
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniGermany"){
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-      $("#collapseSix").collapse("show");
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniHungary"){
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-      $("#collapseSix").collapse("hide");	
-	  $("#collapseSeven").collapse("show");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniItaly"){
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
+      $("#collapseThree").collapse("hide");
+      $("#collapseFour").collapse("hide");
       $("#collapseFive").collapse("hide");
-	  $("#collapseSix").collapse("hide");	
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("show");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniNorway"){ 
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-	  $("#collapseSix").collapse("hide");
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("show");	
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniSweden"){	 
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-	  $("#collapseSix").collapse("hide");
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");	
-	  $("#collapseTen").collapse("show");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniUK"){
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-	  $("#collapseSix").collapse("hide");	
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");	
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("show");	
-	  $("#collapseTwelve").collapse("hide");
-	  $("#collapseThirteen").collapse("hide");      
-}else if (window.location.hash==="#uniUSA"){	 
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-	  $("#collapseSix").collapse("hide");
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");	
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("show");
-      $("#collapseThirteen").collapse("hide"); 
-}else if (window.location.hash==="#uniOthers"){		  
-	  $("#collapseOne").collapse("hide");
-	  $("#collapseTwo").collapse("hide");
-	  $("#collapseThree").collapse("hide");
-	  $("#collapseFour").collapse("hide");
-	  $("#collapseFive").collapse("hide");
-	  $("#collapseSix").collapse("hide");
-	  $("#collapseSeven").collapse("hide");
-	  $("#collapseEight").collapse("hide");
-	  $("#collapseNine").collapse("hide");
-	  $("#collapseTen").collapse("hide");
-	  $("#collapseEleven").collapse("hide");
-	  $("#collapseTwelve").collapse("hide");
-      $("#collapseThirteen").collapse("show"); 
-}
-  
-      
+      $("#collapseSix").collapse("hide");
+      $("#collapseTwo").collapse("show");
+    } else if (window.location.hash === "#uniAustralia") {
+      $("#collapseOne").collapse("hide");
+      $("#collapseTwo").collapse("hide");
+      $("#collapseFour").collapse("hide");
+      $("#collapseFive").collapse("hide");
+      $("#collapseSix").collapse("hide");
+      $("#collapseThree").collapse("show");
+    } else if (window.location.hash === "#uniCanada") {
+      $("#collapseOne").collapse("hide");
+      $("#collapseTwo").collapse("hide");
+      $("#collapseThree").collapse("hide");
+      $("#collapseFive").collapse("hide");
+      $("#collapseSix").collapse("hide");
+      $("#collapseFour").collapse("show");
+    } else if (window.location.hash === "#uniChina") {
+      $("#collapseOne").collapse("hide");
+      $("#collapseTwo").collapse("hide");
+      $("#collapseThree").collapse("hide");
+      $("#collapseFour").collapse("hide");
+      $("#collapseSix").collapse("hide");
+      $("#collapseFive").collapse("show");
+    }
+    else if (window.location.hash === "#uniOthers") {
+      $("#collapseOne").collapse("hide");
+      $("#collapseTwo").collapse("hide");
+      $("#collapseThree").collapse("hide");
+      $("#collapseFour").collapse("hide");
+      $("#collapseFive").collapse("hide");
+      $("#collapseSix").collapse("show");
+    }
   }
 
   // attach click event handlers to the links with the class page-link

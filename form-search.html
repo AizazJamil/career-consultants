@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Education Consultant</title>
+    <meta name="description" content="&amp;lt;h2&amp;gt;eLearni | EC, Education Consultant, Online Education, Training Learning Managemen...">
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" href="static/images/favicon.png" type="image/gif" sizes="16x16">
+    <!-- CSS LIBRARIES -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <!-- START: NAVBAR AREA -->
+      <nav class="navbar navbar-expand-lg navbar-main " id="main-navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="static/images/logo-white.png" alt="Logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item dropdown dropdown-slide dropdown-hover">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Visa/Immigaration
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="study-visa.html">Study Visa</a>
+                  <a class="dropdown-item" href="immigration.html">Immigation</a>
+                  <a class="dropdown-item" href="visit.html">Visit</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown dropdown-slide dropdown-hover">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Search
+                </a>
+                <div class="dropdown-menu search-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                  <form action="#" class="dropdown-form" method="POST">
+                    <div class="form-group">
+                      <select name="program" id="program" class="form-control">
+                        <option value="default">Select Program</option>
+                        <option value="bs">BS</option>
+                        <option value="ms">MS</option>
+                        <option value="mphil">MPhil</option>
+                        <option value="phd">PHD</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select name="field_area" id="field_area" class="form-control">
+                        <option value="default">Select Field/Area</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="mt">Math</option>
+                        <option value="phy">Physics</option>
+                        <option value="chem">Chemistry</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select name="country" id="country" class="form-control">
+                        <option value="default">Select Country</option>
+                        <option value="usa">USA</option>
+                        <option value="china">China</option>
+                        <option value="can">Canada</option>
+                        <option value="qatar">Qatar</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select name="country" id="country" class="form-control">
+                        <option value="default">Select Budget</option>
+                        <option value="1-50">1k to 50k</option>
+                        <option value="50-100">51k to 100k</option>
+                      </select>
+                    </div>
+                    <div class="form-group button-group">
+                      <button type="submit" class="btn btn-success btn-block">Search</button>
+                    </div>
+                  </form>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <ul class="social-nav">
+              <li class="social-link"><a href="https://web.facebook.com/CareerAssistConsultants/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social-link"><a href="https://twitter.com/CareerAssistco1" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-link"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="social-link"><a href="https://www.instagram.com/p/B6Q6443Bnir/?utm_source=ig_web_button_share_sheet" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form> -->
+          </div>
+        </div>
+      </nav>
+      <!-- END: NAVBAR AREA -->
+
+      <!-- START: SEARCH BANNER AREA -->
+      <div class="searchBanner-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+              <div class="search-filter">
+                <form action="#" class="form-filter" method="POST">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="What would you like to study?" required="">
+                    <input type="text" class="form-control" placeholder="Where? e.g. school name or location" required="">
+                    <button type="submit" class="serach-btn btn"><i class="fa fa-search"></i></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END: SEARCH BANNER AREA -->
+
+
+      <!-- START: SEARCH FORM AREA -->
+      <div class="search-formArea">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="filter-form-area">
+                <div class="accordion" id="filterAccordion">
+                  <div class="card">
+                    <div class="card-header p-0" id="headingOne">
+                      <a class="no-link trans-2 d-block text-white bg-header p-2" type="button" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <h5 class="mb-0">Eligibility</h5>
+                        <i class="fa fa-lg pt-1 float-right"></i>
+                      </a>
+                      
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#filterAccordion">
+                      <div class="card-body">
+                        <form action="#" class="searchField-inner form-field" method="POST">
+                          <div class="form-group">
+                            <label for="visa">Do you have a valid Study Permit / Visa?</label>
+                            <select name="visa-select" id="visa" class="form-control" placeholder="Select...">
+                              <option value="default">I don't have this</option>
+                              <option value="usa">USA F1 Visa</option>
+                              <option value="usa">USA F1 Visa</option>
+                              <option value="usa">USA F1 Visa</option>
+                              <option value="usa">USA F1 Visa</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="nationality">Nationality</label>
+                            <select name="visa-select" id="nationality" class="form-control" placeholder="Select...">
+                              <option value="afg">Afghanistan</option>
+                              <option value="pak">Pakistan</option>
+                              <option value="usa">USA</option>
+                              <option value="china">China</option>
+                              <option value="can">Canada</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="education">Education Country</label>
+                            <select name="visa-select" id="education" class="form-control" placeholder="Select...">
+                              <option value="afg">Afghanistan</option>
+                              <option value="pak">Pakistan</option>
+                              <option value="usa">USA</option>
+                              <option value="china">China</option>
+                              <option value="can">Canada</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="education">Education Level</label>
+                            <select name="visa-select" id="education" class="form-control" placeholder="Select...">
+                              <option value="g1">Grade 1</option>
+                              <option value="g2">Grede 2</option>
+                              <option value="g3">Grade 3</option>
+                              <option value="g4">Grade 4</option>
+                              <option value="g5">Grade 5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="education">Grading Scheme</label>
+                            <select name="visa-select" id="education" class="form-control" placeholder="Select...">
+                              <option value="other">Other</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="visa">English Exam Type</label>
+                            <select name="visa-select" id="visa" class="form-control" placeholder="Select...">
+                              <option value="default">I don't have this</option>
+                              <option value="usa">USA F1 Visa</option>
+                              <option value="usa">USA F1 Visa</option>
+                              <option value="usa">USA F1 Visa</option>
+                              <option value="usa">USA F1 Visa</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="checkBoxAdmission">
+                              <label class="custom-control-label" for="checkBoxAdmission">Only Show Direct Admissions <span class="fa fa-exclamation-circle" data-toggle="tooltip" data-placement="top" title="Turning this switch ON means you will only see programs that you will be eligible to apply for them without taking any prerequisite english classes. Keeping this filter OFF means some results shown will require you to take English classes before becoming eligible to apply."></span></label>
+                            </div>
+                          </div>
+                          <div class="form-group button-group text-right">
+                            <button type="submit" class="btn btn-submit bnt-primary">Apply Filters</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header p-0" id="headingTwo">
+                      <a class="no-link trans-2 d-block collapsed text-white bg-header p-2" type="button" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa fa-lg pt-1 float-left"></i>
+                        <h5 class="mb-0 pl-4">
+                        Collapsible Group Item #2
+                        </h5>
+                      </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#filterAccordion">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header p-0" id="headingThree">
+                      <a class="no-link trans-2 d-block collapsed text-white bg-header p-2" type="button" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fa fa-lg pt-1 float-left"></i>
+                        <h5 class="mb-0 pl-4">
+                        Collapsible Group Item #3
+                        </h5>
+                      </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#filterAccordion">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+              <div class="filter-search-area">
+                <form action="#" class="search-area">
+                  <div class="form-group">
+                    <span class="title">Sort By</span>
+                    <select name="" id="" class="form-control">
+                      <option value="items">Items 1</option>
+                      <option value="items">Items 2</option>
+                      <option value="items">Items 3</option>
+                      <option value="items">Items 4</option>
+                      <option value="items">Items 5</option>
+                    </select>
+                  </div>
+                </form>
+              </div>
+              
+              <div class="filter_areaInformation">
+
+                <!-- items -->
+                <div class="card filter-card">
+                  <div class="company-logo">
+                    <img src="https://photos.applyboard.com/schools/000/001/212/logos/original/logo_template.png?1562959706" class="img-fluid" alt="Company Logos">
+                  </div>
+                  <div class="information-text">
+                    <div class="sub-head">
+                      <h4>Unisus School</h4>
+                      <small>Summerland, British Columbia</small>
+                    </div>
+                    <div class="grade_info">
+                      <h5>Grade 1</h5>
+                    </div>
+                    <div class="info-grade-items">
+                      <ul class="info-list">
+                        <li class="list-item">
+                          <h5 class="sm-title text-uppercase">Tution Fee</h5>
+                          <h4 class="nm-title text-uppercase"><span class="sign">$</span>0,635.00 <span class="currency text-uppercase">CAD</span></h4>
+                        </li>
+                        <li class="list-item">
+                          <h5 class="sm-title text-uppercase">Application Fee</h5>
+                          <h4 class="nm-title text-uppercase"><span class="sign">$</span>2000 <span class="currency text-uppercase">CAD</span></h4>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="apply-button">
+                      <button class="btn btn-primary button-apply">Apply</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- //items -->
+                 <!-- items -->
+                <div class="card filter-card">
+                  <div class="company-logo">
+                    <img src="https://photos.applyboard.com/schools/000/001/212/logos/original/logo_template.png?1562959706" class="img-fluid" alt="Company Logos">
+                  </div>
+                  <div class="information-text">
+                    <div class="sub-head">
+                      <h4>Unisus School</h4>
+                      <small>Summerland, British Columbia</small>
+                    </div>
+                    <div class="grade_info">
+                      <h5>Grade 2</h5>
+                    </div>
+                    <div class="info-grade-items">
+                      <ul class="info-list">
+                        <li class="list-item">
+                          <h5 class="sm-title text-uppercase">Tution Fee</h5>
+                          <h4 class="nm-title text-uppercase"><span class="sign">$</span>0,635.00 <span class="currency text-uppercase">CAD</span></h4>
+                        </li>
+                        <li class="list-item">
+                          <h5 class="sm-title text-uppercase">Application Fee</h5>
+                          <h4 class="nm-title text-uppercase"><span class="sign">$</span>2000 <span class="currency text-uppercase">CAD</span></h4>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="apply-button">
+                      <button class="btn btn-primary button-apply">Apply</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- //items -->
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END: SEARCH FORM AREA -->
+      <!-- START: FOOTER AREA -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="footer-link footer-about">
+                <img src="static/images/logo-black.png" class="img-fluid ft-image" alt="Logo">
+                <p class="text">
+                  We help students from around the globe fulfill their dream of studying in a foreign university.We work with the institutions to create useful programs to make the students academically eligible to study in that institute, ensuring your comfortable settle in that country’s environment.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+              <div class="footer-link">
+                <h4 class="subhead">Links</h4>
+                <ul class="link">
+                  <li class="item"><a href="about.html">About Us</a></li>
+                  <li class="item"><a href="admission.html">Admissions</a></li>
+                  <li class="item"><a href="apply.html">Apply</a></li>
+                  <li class="item"><a href="study-visa.html">Study Visa</a></li>
+                  <li class="item"><a href="immigration.html">Immigration</a></li>
+                  <li class="item"><a href="faq.html">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+              <div class="footer-link">
+                <h4 class="subhead">Countries</h4>
+                <ul class="link">
+                  <li class="item"><a href="universities.html#uniUK">UK</a></li>
+                  <li class="item"><a href="universities.html#uniUSA">USA</a></li>
+                  <li class="item"><a href="universities.html#uniAustralia">Australia</a></li>
+                  <li class="item"><a href="universities.html#uniCanada">Canada</a></li>
+                  <li class="item"><a href="universities.html#uniChina">China</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+              <div class="footer-context">
+                <h4 class="subhead">Contact Us</h4>
+                <ul class="contact-list">
+                  <li>
+                    <span class="icon"></span>
+                    <span class="bold">Address:</span>
+                    <span class="light">132G First Floor Commercial Market Phase 1 DHA Lahore, Pakistan</span>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <span class="bold">Phone:</span>
+                    <span class="light">+92 303-3032729 <br> +92 312-4881984</span>
+                  </li>
+                  <li>
+                    <span class="icon"></span>
+                    <span class="bold">Email:</span>
+                    <span class="light"><a href="mailto:careerassist786@gmail.com">careerassist786@gmail.com</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+              <div class="footer-copyright text-center">
+                <p>Copyright © 2019 <strong><a href="#">Career Assist Consultants</a></strong>. All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END: FOOTER AREA -->
+      <!-- Modal -->
+      <div class="modal fade applyModal_Main" id="applyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Inquiry Form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="apply-modal">
+                <h4 class="subhead">Student Query Form</h4>
+                <p>Personal details & identification</p>
+                <form action="#" class="form-inline" id="formApply">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                        <label for="">Area of Study</label>
+                        <input type="text" class="form-control" name="areaStudy" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                        <label for="">FullName</label>
+                        <input type="text" class="form-control" name="fullname" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                        <label for="">First Name</label>
+                        <input type="text" class="form-control" name="firstname" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                        <label for="">Last Name</label>
+                        <input type="text" class="form-control" name="lastname" required>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                        <label for="">Full Address</label>
+                        <textarea name="address" id="" cols="30" rows="3" class="form-control" required></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                      <div class="form-group">
+                        <label for="">Details Description of Query</label>
+                        <textarea name="details" id="" cols="30" rows="3" class="form-control" required></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
+                      <h4 class="subhead mt-4">Is there anything you’d like to learn more?</h4>
+                      <div class="custom-control custom-radio text-left">
+                        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input custorm-control-query" onclick="customQuery()" checked>
+                        <label class="custom-control-label" for="customRadio1">I want to know bout the financial assistance in study</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input custorm-control-query" onclick="customQuery()">
+                        <label class="custom-control-label" for="customRadio2">I want t know about residential/hostel facilities</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input custorm-control-query" onclick="customQuery()">
+                        <label class="custom-control-label" for="customRadio3">I want to know about the internship programmes</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input custorm-control-query" onclick="customQuery()">
+                        <label class="custom-control-label" for="customRadio4">I want to know about the scholarship offered</label>
+                      </div>
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio5" name="customRadio" class="custom-control-input custorm-control-query" onclick="radioShow()">
+                        <label class="custom-control-label" for="customRadio5">Other</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 other-form">
+                      <div class="form-group">
+                        <label for="">Other</label>
+                        <textarea name="details" id="" cols="30" rows="3" class="form-control" required></textarea>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-right">
+                      <div class="form-group justify-content-end">
+                        <button type="submit" class="btn btn-default btn-block"><strong>Submit</strong></button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Back to top button -->
+      <a id="topBack"><span class="icon"><i class="fas fa-angle-up"></i></span></a>
+      <!-- Button Help -->
+      <div class="bottom-button">
+        <button class="btn btn-default" data-toggle="modal" data-target="#applyModal"><i class="far fa-question-circle"></i> Submit Query</button>
+      </div>
+    </div>
+    <!-- JAVASCRIPT LIBRARIES -->
+    <script src="static/js/jquery-3.4.1.min.js"></script>
+    <script src="static/js/popper.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <!-- <script src="static/js/main.js"></script> -->
+    <script>
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    // Scrolled Navigation Bar
+$(function() {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() >= 200) {
+      $('nav').addClass('scrolled');
+    } else {
+      $('nav').removeClass('scrolled');
+    }
+  });
+});
+    </script>
+  </body>
+</html>
